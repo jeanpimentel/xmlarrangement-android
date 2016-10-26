@@ -104,7 +104,7 @@ user@machine:~$ xmlarrangement-android my-order.txt > rules.xml
 * Copy new file to Android Studio codestyle path:
  * **Mac**: ~/Library/Preferences/AndroidStudioX.X/config/codestyles/
  * **Linux**: ~/.AndroidStudioX.X/config/codestyles/
- * **Windows**: %USERPROFILE%\.AndroidStudioX.X\config\codeStyles
+ * **Windows**: %USERPROFILE%\\.AndroidStudioX.X\config\codeStyles
 
 * Restart AndroidStudio, go to Preferences **>** CodeStyle **>** Scheme and apply `NewScheme`.
 
