@@ -4,55 +4,9 @@
 
 ---
 
-## Before
-```xml
-<TextView
-	android:id="@+id/example"
-	style="@style/AppTheme.TextView.Example"
-	android:layout_width="wrap_content"
-	android:layout_height="48dp"
-	android:gravity="center_vertical"
-	tools:text="Lorem Ipsum..."
-	android:paddingLeft="8dp" />
+## Before/After
 
-<EditText
-	android:id="@+id/name"
-	android:layout_width="match_parent"
-	android:hint="Hint for Name"
-	android:layout_height="wrap_content" />
-
-<Button
-	android:visibility="gone"
-	android:layout_width="96dp"
-	android:layout_height="wrap_content"
-	android:layout_below="@id/name"
-	android:layout_alignParentRight="true" />
-```
-
-## After
-```xml
-<TextView
-	android:id="@+id/example"
-	android:layout_width="wrap_content"
-	android:layout_height="48dp"
-	android:paddingLeft="8dp"
-	style="@style/AppTheme.TextView.Example"
-	android:gravity="center_vertical"
-	tools:text="Lorem Ipsum..."/>
-
-<EditText
-	android:id="@+id/name"
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:hint="Hint for Name"/>
-
-<Button
-	android:layout_width="96dp"
-	android:layout_height="wrap_content"
-	android:layout_below="@id/name"
-	android:layout_alignParentRight="true"
-	android:visibility="gone"/>
-```
+![Diff](diff.png)
 
 ## How to use?
 
